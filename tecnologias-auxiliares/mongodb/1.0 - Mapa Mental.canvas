@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"329924d50398bdea","type":"file","file":"tecnologias-auxiliares/mongodb/1.1 - Introdução ao MongoDB.md","x":520,"y":-940,"width":460,"height":50},
+		{"id":"8b03578ebc1dd1b6","type":"text","text":"Conceitos Básicos","x":140,"y":-840,"width":250,"height":60,"color":"4"},
+		{"id":"bb892dca5f32687b","type":"file","file":"tecnologias-auxiliares/mongodb/1.2 - Vantagens do NoSQL.md","x":520,"y":-865,"width":460,"height":50},
+		{"id":"91536c740914e5f4","type":"file","file":"tecnologias-auxiliares/mongodb/1.3 - Diferenças entre BDs Relacionais e Não Relacionais.md","x":520,"y":-780,"width":460,"height":120},
+		{"id":"1ea4c5f0b12793d8","x":-460,"y":-620,"width":460,"height":80,"type":"file","file":"tecnologias-auxiliares/mongodb/1.4 - Principais Comandos do MongoDB.md"},
+		{"id":"fd1178ffcb87aced","x":-460,"y":-500,"width":460,"height":100,"type":"file","file":"tecnologias-auxiliares/mongodb/1.5 - Estrutura de um Documento.md"},
+		{"id":"02280631743fb0dd","x":140,"y":-640,"width":250,"height":60,"color":"4","type":"text","text":"Estrutura"},
+		{"id":"0d9db502eb8cf3b2","x":520,"y":-260,"width":460,"height":100,"type":"file","file":"tecnologias-auxiliares/mongodb/1.7 - Atualizando e Excluindo Documentos.md"},
+		{"id":"28ca7f1eb9ac8551","x":520,"y":-360,"width":460,"height":50,"type":"file","file":"tecnologias-auxiliares/mongodb/1.6 - Consultas no MongoDB.md"},
+		{"id":"17d626f82c6b53da","x":140,"y":-360,"width":250,"height":60,"color":"4","type":"text","text":"Consultas e Dados"}
+	],
+	"edges":[
+		{"id":"bac3dfd9fa30aa4d","fromNode":"8b03578ebc1dd1b6","fromSide":"right","toNode":"329924d50398bdea","toSide":"left"},
+		{"id":"bc03a6188eb45a3b","fromNode":"8b03578ebc1dd1b6","fromSide":"right","toNode":"bb892dca5f32687b","toSide":"left"},
+		{"id":"ff89b0a6e2fd7dca","fromNode":"8b03578ebc1dd1b6","fromSide":"right","toNode":"91536c740914e5f4","toSide":"left"},
+		{"id":"85e6499b4f0f44b1","fromNode":"8b03578ebc1dd1b6","fromSide":"bottom","toNode":"02280631743fb0dd","toSide":"top"},
+		{"id":"476b584805987b80","fromNode":"02280631743fb0dd","fromSide":"left","toNode":"fd1178ffcb87aced","toSide":"right"},
+		{"id":"c6ea96a803c6d4f1","fromNode":"02280631743fb0dd","fromSide":"left","toNode":"1ea4c5f0b12793d8","toSide":"right"},
+		{"id":"2d8ffdee8f61d975","fromNode":"02280631743fb0dd","fromSide":"bottom","toNode":"17d626f82c6b53da","toSide":"top"},
+		{"id":"2f2c51a54b302ce7","fromNode":"17d626f82c6b53da","fromSide":"right","toNode":"28ca7f1eb9ac8551","toSide":"left"},
+		{"id":"1d8f8609044aafd2","fromNode":"17d626f82c6b53da","fromSide":"right","toNode":"0d9db502eb8cf3b2","toSide":"left"}
+	]
+}
