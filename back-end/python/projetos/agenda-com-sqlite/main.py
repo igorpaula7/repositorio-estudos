@@ -1,5 +1,8 @@
 import os as terminal
 import sqlite3 as sqlite
+from colorama import init, Back, Fore
+
+init()
 
 conexao = sqlite.connect("agenda.db")
 cursor = conexao.cursor()
@@ -12,7 +15,7 @@ def criar_banco_de_dados():
     
 def listar_opcoes():
     terminal.system("clear")
-    print("""
+    print(Fore.LIGHTBLUE_EX + """
 ░█████╗░░██████╗░███████╗███╗░░██╗██████╗░░█████╗░
 ██╔══██╗██╔════╝░██╔════╝████╗░██║██╔══██╗██╔══██╗
 ███████║██║░░██╗░█████╗░░██╔██╗██║██║░░██║███████║
@@ -20,7 +23,7 @@ def listar_opcoes():
 ██║░░██║╚██████╔╝███████╗██║░╚███║██████╔╝██║░░██║
 ╚═╝░░╚═╝░╚═════╝░╚══════╝╚═╝░░╚══╝╚═════╝░╚═╝░░╚═╝
           \n""")
-    print("Digite 1 para Cadastrar um contato.")
+    print(Fore.RESET + "Digite 1 para Cadastrar um contato.")
     print("Digite 2 para Listar os contatos.")
     print("Digite 3 para Atualizar um contato.")
     print("Digite 4 para Apagar um contato.\n")
